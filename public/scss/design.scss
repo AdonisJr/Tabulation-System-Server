@@ -1,0 +1,22 @@
+$primaryColor: #BC1B4A;
+$secondaryColor: #926D00;
+$backgroundColor: #7A3F7F;
+$fontLight: white;
+$fontDark: black;
+$backgroundLight: white;
+$backgroundDark: black;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+    background-color: $backgroundColor;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}

@@ -1,0 +1,75 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #7A3F7F;
+}
+
+.login .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  height: 60%;
+  background-color: white;
+}
+
+.login .content .register {
+  height: 100%;
+  width: 50%;
+}
+
+.login .content .login-content {
+  height: 100%;
+  width: 50%;
+  padding: 1em;
+  background-color: white;
+}
+
+.login .content .login-content form {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: .5em;
+}
+
+.login .content .login-content form input {
+  padding: .5em 1em;
+  border-radius: 25px;
+}
+
+.login .content .login-content form .btnSubmit {
+  background-color: #926D00;
+  border: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-weight: bold;
+  color: white;
+}
+
+.login .content .login-content form .btnSubmit:hover {
+  background-color: #BC1B4A;
+}

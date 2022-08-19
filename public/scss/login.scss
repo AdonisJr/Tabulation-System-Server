@@ -1,0 +1,58 @@
+$primaryColor: #BC1B4A;
+$secondaryColor: #926D00;
+$backgroundColor: #7A3F7F;
+$fontLight: white;
+$fontDark: black;
+$backgroundLight: white;
+$backgroundDark: black;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: $backgroundColor;
+    .content {
+        display: flex;
+        width: 70%;
+        height: 60%;
+        background-color: $backgroundLight;
+        .register {
+            height: 100%;
+            width: 50%;
+        }
+        .login-content {
+            height: 100%;
+            width: 50%;
+            padding: 1em;
+            background-color: $backgroundLight;
+            form {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: .5em;
+                input {
+                    padding: .5em 1em;
+                    border-radius: 25px;
+                }
+                .btnSubmit {
+                    background-color: #926D00;
+                    border: none;
+                    transition: .5s;
+                    font-weight: bold;
+                    color: $fontLight;
+                    &:hover {
+                        background-color: #BC1B4A;
+                    }
+                }
+            }
+        }
+    }
+}
